@@ -2,7 +2,6 @@
 #include <string>
 
 //Функция нахождения октета по номеру
-
 std::string find_octet (std::string str, int number)
 {
     std::string octet;
@@ -98,6 +97,7 @@ bool octet_incorrect (std::string str)
 
 int main()
 {
+    std::cout << "------------IP-address validation------------\n" << std::endl;
     while (true)
     {
         // Ввод строки с адресом электронной почты
